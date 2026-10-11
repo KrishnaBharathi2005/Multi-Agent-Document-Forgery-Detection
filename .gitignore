@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build files
+dist/
+build/
+
+# Generated reports and outputs
+backend/reports/*
+backend/ela_outputs/*
+
+# Uploaded documents
+backend/uploads/*
